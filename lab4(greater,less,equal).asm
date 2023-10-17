@@ -36,11 +36,13 @@ main proc
     int 21h
     jmp Exit
     less:
+
     mov ah,9
     lea dx, msg3
     int 21h 
     jmp Exit
     equal:
+
     mov ah,9
     lea dx,msg4
     int 21h 
